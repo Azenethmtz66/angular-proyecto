@@ -3,13 +3,23 @@
     <app-header></app-header>
     <h2>Mi Parque</h2>
     <div style="height: 100px;"></div>
-    <div class="container" style="width: 50%; font-size: 18px;font-weight: bold;">
+    <div class="container" style="width: 50%; font-size: 20px;font-weight: bold;">
           
           
             <div class="form-group">
-            <h2>Nombre:</h2>
-              <p for="">Parque gritos</p>
-            </div>
+              <div class="form-group row">
+        
+                <div class="col">
+                    <h2>Nombre:</h2>
+                    <p for="">Holaaa</p>
+                </div>
+              
+                <div class="col">
+                    <h2>Telefono:</h2>
+                    <p>8715468525</p>
+                </div>
+            </div> 
+            
         <div class="form-group row">
         
                 <div class="col">
@@ -18,19 +28,20 @@
                 </div>
               
                 <div class="col">
-                    <h2>Telefono:</h2>
-                   <p>8715468525</p>
+                    <h2>Estatus:</h2>
+                    <p>Activo</p>
                 </div>
             </div> 
             <div class="form-group row">
             
               <div class="col">
                   <h2>Direccion:</h2>
-                  <label for="">Colonia Villas Universidad #325</label>
+                  <p>Colonia Villas Universidad #325</p>
               </div>
               <div >
-                <button type="button" class="btn btn-success" style="margin-right: 15px;">Visitantes</button>
-                <button type="button" class="btn btn-warning" style="margin-right: 15px;">Actualizar</button>
+                <button type="button" class="btn btn-secondary" style="margin-right: 15px;" routerLink="/sensores" >Sensores</button>
+                <button type="button" class="btn btn-success" style="margin-right: 15px;" routerLink="/visitantes">Visitantes</button>
+                <button type="button" class="btn btn-warning" style="margin-right: 15px;" routerLink="/modiparque" >Actualizar</button>
                 <button type="button" class="btn btn-danger" style="margin-right: 15px;">Eliminar</button></div>
           </div>        
       

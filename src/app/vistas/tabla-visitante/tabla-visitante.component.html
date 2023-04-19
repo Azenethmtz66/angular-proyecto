@@ -3,14 +3,15 @@
     <div class="container" style="width: 85%;">
       <h2>Mis Visitantes</h2>
       <br>
-      <button type="button" class="btn btn-success">Agregar visitante</button>
+      <button type="button" class="btn btn-success" routerLink="/agregarvisitante">Agregar visitante</button>
       <br><br>
         <table class="table table-dark table-striped">
             <thead>
               <tr>
                 <th scope="col">id</th>
                 <th scope="col">Nombre</th>
-                <th scope="col">Direccion</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Estatus</th>
                 <th scope="col">Mas opciones</th>
               </tr>
             </thead>
@@ -18,23 +19,12 @@
               <tr>
                 <th scope="row">1</th>
                 <td>Mark jxnckxnvkxcx kxncjkxj </td>
-                <td>Otto n mx jvvdnsiudc ncu dnuc ducs s</td>
+                <td>8712589635</td>
+                <td>Activo</td>
                 <td>
-                    <button type="button" class="btn btn-outline-light" style="margin-right: 15px;">Mas información</button>
-                    <button type="button" class="btn btn-outline-warning" style="margin-right: 15px;">Actualizar</button>
-                    <button type="button" class="btn btn-outline-danger" style="margin-right: 15px;">Eliminar</button>
+                    <button type="button" class="btn btn-outline-warning" style="margin-right: 15px;"  routerLink="/modivisitante" >Actualizar</button>
+                    <button type="button" class="btn btn-outline-danger"style="margin-right: 15px;">Eliminar</button>
                 </td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
               </tr>
               
             </tbody>

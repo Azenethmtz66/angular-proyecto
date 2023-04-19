@@ -1,3 +1,43 @@
-<div  style="width: 100%;height: 723px; background-image:url('../../../assets/27.PNG');">
+<div  style="width: 100%;height: 723px; background-image: linear-gradient(30deg, rgb(23, 62, 50),#212027 70%)">
     <app-header></app-header>
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <a routerLink="/agregarparque"><div class="carousel-item active">
+                <img src="../../../assets/1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Registra tus parques</h1>
+                  <p>Registra tus parques para que puedas tener un control de los datos.</p>
+                </div>
+              </div></a>
+              <a routerLink="/agregarvisitante"><div class="carousel-item">
+                <img src="../../../assets/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Registra tus visitantes</h1>
+                  <p>Registra tus visitantes para que puedas tener un control de los datos.</p>
+                </div>
+              </div></a>
+              <a routerLink="/parques"><div class="carousel-item">
+                <img src="../../../assets/3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Mira la informacion de tus parques</h1>
+                  <p>Todo organizado en tablas, incluso con la opción de ver los datos de tus sensores.</p>
+                </div>
+              </div></a>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
 </div>

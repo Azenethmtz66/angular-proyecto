@@ -1,4 +1,4 @@
-input[type=text]{
+input[type=text], select{
     border: none;
     border-bottom: 2px solid rgb(62, 206, 62);
     
@@ -7,7 +7,7 @@ input[type=text]{
     box-shadow: 0 10px 10px 0 rgba(95, 233, 157, 0.4);
 }
 
-input[type=button], input[type=submit], input[type=reset]  {
+input[type=button], input[type=submit], input[type=reset] {
     background-color: #2fc958;
     border: none;
     color: white;
