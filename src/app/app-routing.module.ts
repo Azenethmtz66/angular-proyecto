@@ -12,6 +12,7 @@ import { TablaParqueComponent } from './vistas/tabla-parque/tabla-parque.compone
 import { TablaVisitanteComponent } from './vistas/tabla-visitante/tabla-visitante.component'
 import { DetallesParqueComponent } from './vistas/detalles-parque/detalles-parque.component'
 import { SensoresComponent } from './vistas/sensores/sensores.component'
+import { CodigoveriComponent } from './vistas/codigoveri/codigoveri.component'
 
 
 
@@ -29,6 +30,7 @@ const routes: Routes = [
   {path:'prin', component:InicioLoginComponent},
   {path:'sensores', component:SensoresComponent},
   {path:'parque_info', component:DetallesParqueComponent},
+  {path:'codigo', component:CodigoveriComponent},
 
 ];
 

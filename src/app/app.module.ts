@@ -19,6 +19,7 @@ import { TablaVisitanteComponent } from './vistas/tabla-visitante/tabla-visitant
 import { AgregarVisitanteComponent } from './vistas/agregar-visitante/agregar-visitante.component';
 import { ModiVisitanteComponent } from './vistas/modi-visitante/modi-visitante.component';
 import { SensoresComponent } from './vistas/sensores/sensores.component';
+import { CodigoveriComponent } from './vistas/codigoveri/codigoveri.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { SensoresComponent } from './vistas/sensores/sensores.component';
     TablaVisitanteComponent,
     AgregarVisitanteComponent,
     ModiVisitanteComponent,
-    SensoresComponent
+    SensoresComponent,
+    CodigoveriComponent
   ],
   imports: [
     BrowserModule,
